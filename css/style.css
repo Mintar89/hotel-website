@@ -26,6 +26,16 @@ p {
 
 /* Utility Classes */
 
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-primary {
+  background: #333;
+  color: #f7c08a;
+}
+
 .container {
   margin: auto;
   max-width: 1100px;
@@ -53,6 +63,11 @@ p {
 
 .btn:hover {
   background: #f7c08a;
+  color: #333;
+}
+
+.btn-light {
+  background: #f4f4f4;
   color: #333;
 }
 
@@ -115,6 +130,30 @@ p {
   line-height: 1.7em;
 }
 
+/* Home info */
+#home-info {
+  height: 400px;
+}
+#home-info .info-img {
+  background: url('../img/photo-1.jpg') no-repeat;
+  width: 50%;
+  min-height: 100%;
+  float: left; 
+}
+
+#home-info .info-content {
+  color: #fff;
+  padding: 50px 30px;
+  text-align: center;
+  width: 50%;
+  float: right;
+  height: 100%;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
 
 
 
