@@ -26,6 +26,10 @@ p {
 
 /* Utility Classes */
 
+.clr {
+  clear: both;
+}
+
 .bg-dark {
   background: #333;
   color: #fff;
@@ -159,7 +163,7 @@ p {
 /* Features */
 
 #features {
-  height: 300px;
+  height: 200px;
 }
 
 .box {
@@ -171,6 +175,15 @@ p {
 
 .box i {
   margin-bottom: 10px;
+}
+
+/* Footer */
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
 }
 
 
